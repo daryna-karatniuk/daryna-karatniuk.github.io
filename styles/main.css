@@ -44,6 +44,7 @@ section {
 .first-text {
     text-align: center;
     font-size: 50px;
+    -webkit-text-shadow: 0 0 15px #000;
     text-shadow: 0 0 15px #000;
     letter-spacing: -1px;
     animation-name: fadeInDown;
@@ -52,6 +53,7 @@ section {
 
 .first-paragraph {
     font-size: 25px;
+    -webkit-text-shadow: 0 0 15px #000;
     text-shadow: 0 0 15px #000;
     letter-spacing: -1px;
     animation-name: fadeInDown;
@@ -239,6 +241,7 @@ section {
 
 #work .work-subsection:hover #f_card {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     box-shadow: -5px 5px 5px #333;
 }
 
@@ -257,10 +260,6 @@ section {
     color: #fff;
     background-color: #424242;
 }
-
-
-
-
 
 
 
@@ -496,7 +495,6 @@ footer a {
     }
     #aboutme, #work, #skills {
         height: auto;
-        color: red;
     }
     
     #skills p, #work p {
