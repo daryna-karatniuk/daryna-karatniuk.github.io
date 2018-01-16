@@ -240,11 +240,13 @@ section {
     transition: all 0.8s linear;
 }
 
+/*
 #work .work-subsection:hover #f_card {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     box-shadow: -5px 5px 5px #333;
 }
+*/
 
 .face {
     position: absolute;
