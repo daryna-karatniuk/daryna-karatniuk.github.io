@@ -5,6 +5,8 @@ body,
     font-family: 'Barlow', Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     scroll-behavior: smooth;
+    
+    /*archow narrow */
 }
 
 .navbar-brand {
@@ -55,6 +57,7 @@ section {
     animation-name: fadeInDown;
     animation-duration: 2s;
 }
+
 
 h2 {
     text-align: center;
