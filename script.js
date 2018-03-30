@@ -73,7 +73,6 @@ $(window).scroll(function() {
        hH = $('.aboutme-head').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
-    console.log((hT-wH) , wS);
    if (wS > (hT+hH-wH)){
     $('.aboutme-head').fadeIn(2000);
    }
