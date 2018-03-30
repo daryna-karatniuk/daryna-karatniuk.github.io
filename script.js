@@ -36,9 +36,12 @@ $(document).ready(function () {
         }
     });
 
+
+
 $("#navbar-collapse > ul > li> a").click(function(){
 $(this).siblings().removeClass('current');
 });
+
 
 
 $(window).scroll(function(e) {
@@ -70,6 +73,7 @@ $(window).scroll(function() {
        hH = $('.aboutme-head').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
+    console.log((hT-wH) , wS);
    if (wS > (hT+hH-wH)){
     $('.aboutme-head').fadeIn(2000);
    }
